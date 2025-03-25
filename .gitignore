@@ -2,3 +2,7 @@
 *.log
 *.str
 .DS_Store
+*.cache
+*.runs
+*.sim
+*.hw
