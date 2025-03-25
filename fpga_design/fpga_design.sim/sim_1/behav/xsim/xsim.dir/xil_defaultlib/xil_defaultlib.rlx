@@ -1,0 +1,24 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/DualPortBlock16/sim/DualPortBlock16.v,1741073842,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/dualPortBlockAXI18/sim/dualPortBlockAXI18.v,,DualPortBlock16,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/dualPortBlock18/sim/dualPortBlock18.v,1741164837,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/DualPortBlock16/sim/DualPortBlock16.v,,dualPortBlock18,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/dualPortBlockAXI18/sim/dualPortBlockAXI18.v,1740893656,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/memoryShift.v,,dualPortBlockAXI18,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/programBlock16/sim/programBlock16.v,1741509588,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/tb/thread_tb.v,,programBlock16,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/singlePortBlock18/sim/singlePortBlock18.v,1740776563,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/dualPortBlock18/sim/dualPortBlock18.v,,singlePortBlock18,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sim_1/new/thread_test.v,1740854187,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/tb/core_tb.v,,thread_test,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/alu.v,1741614672,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/flags.v,,alu,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/barrelShifter.v,1740684391,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/instructionDecode.v,,barrelShifter,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/core.v,1741686810,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1/ip/programBlock16/sim/programBlock16.v,,core,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/flags.v,1740775754,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/pc.v,,flags,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/instructionDecode.v,1741596276,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/registerFIle.v,,instructionDecode,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/memoryShift.v,1740985976,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/core.v,,memoryShift,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/opSel.v,1740771413,verilog,,,,opSel,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/pc.v,1741522757,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/opSel.v,,pc,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/registerFIle.v,1740852831,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/smolBarrelShift.v,,registerFile,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/smolBarrelShift.v,1740680498,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/alu.v,,smolbarrelShift,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/tb/core_tb.v,1741690401,verilog,,,,core_tb,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/tb/thread_tb.v,1740894433,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sim_1/new/thread_test.v,,thread_tb,,,,,,,,
+/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/thread.v,1741634513,verilog,,/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/barrelShifter.v,,thread,,,,,,,,

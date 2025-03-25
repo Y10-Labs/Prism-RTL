@@ -1,0 +1,577 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Mar 12 18:04:43 2025
+# Process ID         : 271219
+# Current directory  : /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/impl_1
+# Command line       : vivado -log processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source processor.tcl -notrace
+# Log file           : /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/impl_1/processor.vdi
+# Journal file       : /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/impl_1/vivado.jou
+# Running On         : engineering-laptop
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+# CPU Frequency      : 1099.998 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16486 MB
+# Swap memory        : 18135 MB
+# Total Virtual      : 34621 MB
+# Available Virtual  : 30259 MB
+#-----------------------------------------------------------
+source processor.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1394.512 ; gain = 0.023 ; free physical = 7926 ; free virtual = 28585
+Command: link_design -top processor -part xc7z020clg484-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1654.410 ; gain = 0.000 ; free physical = 7783 ; free virtual = 28448
+INFO: [Netlist 29-17] Analyzing 16961 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID0_IBUF[0]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID0_IBUF[0]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID0_IBUF[1]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID0_IBUF[1]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID1_IBUF[0]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID1_IBUF[0]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID1_IBUF[1]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'chunkID1_IBUF[1]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[0]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[1]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[2]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[3]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[4]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[5]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[6]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[7]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[8]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addra[9]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[0]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[1]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[2]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[3]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[4]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[5]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[6]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[7]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[8]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/addrb[9]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/clka'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/clkb'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[0]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[10]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[11]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[12]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[13]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[14]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[15]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[16]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[17]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[1]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[2]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[3]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[4]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[5]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[6]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[7]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[8]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dina[9]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[0]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[10]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[11]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[12]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[13]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[14]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[15]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[16]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[17]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[1]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[2]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[3]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[4]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[5]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[6]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[7]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[8]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/dinb[9]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[0]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[10]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[11]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[12]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[13]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[14]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[15]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[16]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[17]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[1]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[2]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[3]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[4]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[5]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[6]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[7]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[8]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/douta[9]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[0]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[10]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[11]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[12]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[13]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[14]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[15]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[16]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[17]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[1]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[2]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[3]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[4]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[5]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[6]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Vivado 12-508] No pins matched 'coreProgMem/doutb[7]'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+CRITICAL WARNING: [Common 17-14] Message 'Vivado 12-508' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:1]
+get_pins: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1899.469 ; gain = 0.000 ; free physical = 7365 ; free virtual = 28055
+WARNING: [Constraints 18-633] Creating clock clk with 3 sources. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:22435]
+CRITICAL WARNING: [Vivado 12-4439] The number of objects collected by the 'objects' option of 'set_clock_uncertainty' is very large: 958369. This may lead to serious performance issues and out-of-memory conditions in handling the results. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:22437]
+Resolution: Further filtering of the command results, or narrowing the scope of the command is recommended.
+Finished Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2151.234 ; gain = 0.000 ; free physical = 7297 ; free virtual = 27977
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 1 Warnings, 102 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:02 . Memory (MB): peak = 2151.234 ; gain = 756.723 ; free physical = 7298 ; free virtual = 27977
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 2273.977 ; gain = 122.742 ; free physical = 7145 ; free virtual = 27834
+
+Starting Cache Timing Information Task
+WARNING: [Constraints 18-633] Creating clock clk with 3 sources. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:22435]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 11c35b11f
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 2925.141 ; gain = 651.164 ; free physical = 6498 ; free virtual = 27202
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 11c35b11f
+
+Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.23 . Memory (MB): peak = 3166.125 ; gain = 0.000 ; free physical = 6298 ; free virtual = 27001
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 11c35b11f
+
+Time (s): cpu = 00:00:00.32 ; elapsed = 00:00:00.32 . Memory (MB): peak = 3166.125 ; gain = 0.000 ; free physical = 6298 ; free virtual = 27001
+Phase 1 Initialization | Checksum: 11c35b11f
+
+Time (s): cpu = 00:00:00.33 ; elapsed = 00:00:00.34 . Memory (MB): peak = 3166.125 ; gain = 0.000 ; free physical = 6298 ; free virtual = 27001
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 11c35b11f
+
+Time (s): cpu = 00:21:11 ; elapsed = 00:09:49 . Memory (MB): peak = 3933.805 ; gain = 767.680 ; free physical = 5400 ; free virtual = 26101
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 11c35b11f
+
+Time (s): cpu = 00:21:12 ; elapsed = 00:09:49 . Memory (MB): peak = 3933.805 ; gain = 767.680 ; free physical = 5401 ; free virtual = 26101
+Phase 2 Timer Update And Timing Data Collection | Checksum: 11c35b11f
+
+Time (s): cpu = 00:21:12 ; elapsed = 00:09:49 . Memory (MB): peak = 3933.805 ; gain = 767.680 ; free physical = 5401 ; free virtual = 26101
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 11c35b11f
+
+Time (s): cpu = 00:21:14 ; elapsed = 00:09:51 . Memory (MB): peak = 3933.805 ; gain = 767.680 ; free physical = 5458 ; free virtual = 26158
+Retarget | Checksum: 11c35b11f
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Retarget, 16726 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 11c35b11f
+
+Time (s): cpu = 00:21:15 ; elapsed = 00:09:52 . Memory (MB): peak = 3933.805 ; gain = 767.680 ; free physical = 5448 ; free virtual = 26148
+Constant propagation | Checksum: 11c35b11f
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 1360 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3933.805 ; gain = 0.000 ; free physical = 5431 ; free virtual = 26131
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3933.805 ; gain = 0.000 ; free physical = 5502 ; free virtual = 26202
+Phase 5 Sweep | Checksum: 14973a29f
+
+Time (s): cpu = 00:21:21 ; elapsed = 00:09:59 . Memory (MB): peak = 4342.844 ; gain = 1176.719 ; free physical = 5957 ; free virtual = 26657
+Sweep | Checksum: 14973a29f
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Sweep, 391 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-129] Inserted BUFG to drive high-fanout reset|set|enable net. BUFG cell: thread_rst_IBUF_BUFG_inst, Net: thread_rst_IBUF
+Phase 6 BUFG optimization | Checksum: 10257f09f
+
+Time (s): cpu = 00:21:24 ; elapsed = 00:10:01 . Memory (MB): peak = 4374.859 ; gain = 1208.734 ; free physical = 5856 ; free virtual = 26557
+BUFG optimization | Checksum: 10257f09f
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 10257f09f
+
+Time (s): cpu = 00:21:24 ; elapsed = 00:10:01 . Memory (MB): peak = 4374.859 ; gain = 1208.734 ; free physical = 5857 ; free virtual = 26557
+Shift Register Optimization | Checksum: 10257f09f
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 10257f09f
+
+Time (s): cpu = 00:21:25 ; elapsed = 00:10:01 . Memory (MB): peak = 4374.859 ; gain = 1208.734 ; free physical = 5797 ; free virtual = 26498
+Post Processing Netlist | Checksum: 10257f09f
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 160 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: b038cd5d
+
+Time (s): cpu = 00:21:28 ; elapsed = 00:10:04 . Memory (MB): peak = 4374.859 ; gain = 1208.734 ; free physical = 5765 ; free virtual = 26466
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.22 . Memory (MB): peak = 4374.859 ; gain = 0.000 ; free physical = 5888 ; free virtual = 26589
+Phase 9.2 Verifying Netlist Connectivity | Checksum: b038cd5d
+
+Time (s): cpu = 00:21:28 ; elapsed = 00:10:04 . Memory (MB): peak = 4374.859 ; gain = 1208.734 ; free physical = 5888 ; free virtual = 26589
+Phase 9 Finalization | Checksum: b038cd5d
+
+Time (s): cpu = 00:21:28 ; elapsed = 00:10:04 . Memory (MB): peak = 4374.859 ; gain = 1208.734 ; free physical = 5888 ; free virtual = 26589
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                          16726  |
+|  Constant propagation         |               0  |               0  |                                           1360  |
+|  Sweep                        |               0  |               0  |                                            391  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                            160  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: b038cd5d
+
+Time (s): cpu = 00:21:28 ; elapsed = 00:10:04 . Memory (MB): peak = 4374.859 ; gain = 1208.734 ; free physical = 5888 ; free virtual = 26589
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+WARNING: [Constraints 18-633] Creating clock clk with 3 sources. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:22435]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 241 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 161 Total Ports: 482
+Number of Flops added for Enable Generation: 2
+
+Ending PowerOpt Patch Enables Task | Checksum: 47ff854b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4419 ; free virtual = 25131
+Ending Power Optimization Task | Checksum: 47ff854b
+
+Time (s): cpu = 00:12:55 ; elapsed = 00:06:21 . Memory (MB): peak = 5082.727 ; gain = 707.867 ; free physical = 4402 ; free virtual = 25114
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+WARNING: [Constraints 18-633] Creating clock clk with 3 sources. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:22435]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 98db1f02
+
+Time (s): cpu = 00:19:30 ; elapsed = 00:08:45 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4544 ; free virtual = 25184
+Ending Final Cleanup Task | Checksum: 98db1f02
+
+Time (s): cpu = 00:19:35 ; elapsed = 00:08:49 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4544 ; free virtual = 25184
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4544 ; free virtual = 25184
+Ending Netlist Obfuscation Task | Checksum: 98db1f02
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4544 ; free virtual = 25184
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 4 Warnings, 102 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:54:45 ; elapsed = 00:25:46 . Memory (MB): peak = 5082.727 ; gain = 2931.492 ; free physical = 4544 ; free virtual = 25184
+INFO: [Vivado 12-24828] Executing command : report_drc -file processor_drc_opted.rpt -pb processor_drc_opted.pb -rpx processor_drc_opted.rpx
+Command: report_drc -file processor_drc_opted.rpt -pb processor_drc_opted.pb -rpx processor_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/impl_1/processor_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:00.25 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4481 ; free virtual = 25204
+INFO: [Common 17-1381] The checkpoint '/home/mihir/Prism/hardware/fpga_design/fpga_design.runs/impl_1/processor_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4280 ; free virtual = 24939
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 21 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4356 ; free virtual = 25017
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 42da6bda
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4356 ; free virtual = 25017
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4356 ; free virtual = 25017
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-568] A LUT 'core_gen[0].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[0].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[0].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[0].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[1].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[1].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[1].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[1].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[2].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[2].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[2].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[2].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[11].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[11].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[11].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[11].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[12].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[12].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[12].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[12].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[13].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[13].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[13].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[13].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[14].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[14].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[14].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[14].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[15].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[15].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[15].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[15].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[16].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[16].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[16].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[16].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[17].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[17].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[17].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[17].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[18].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[18].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[18].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[18].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[19].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[19].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[19].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[19].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[20].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[20].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[20].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[20].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[3].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[3].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[3].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[3].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[21].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[21].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[21].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[21].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[22].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[22].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[22].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[22].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[23].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[23].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[23].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[23].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[24].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[24].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[24].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[24].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[25].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[25].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[25].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[25].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[26].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[26].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[26].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[26].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[27].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[27].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[27].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[27].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[28].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[28].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[28].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[28].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[29].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[29].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[29].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[29].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[30].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[30].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[30].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[30].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[4].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[4].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[4].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[4].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[31].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[31].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[31].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[31].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[32].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[32].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[32].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[32].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[33].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[33].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[33].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[33].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[34].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[34].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[34].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[34].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[35].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[35].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[35].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[35].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[36].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[36].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[36].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[36].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[37].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[37].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[37].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[37].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[38].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[38].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[38].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[38].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[39].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[39].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[39].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[39].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[5].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[5].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[5].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[5].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[6].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[6].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[6].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[6].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[7].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[7].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[7].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[7].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[8].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[8].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[8].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[8].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[9].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[9].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[9].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[9].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[10].u_core/thread0/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[10].u_core/thread0/halt_reg_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'core_gen[10].u_core/thread1/threadInsDecode/halt_INST_0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	core_gen[10].u_core/thread1/halt_reg_reg {FDCE}
+WARNING: [Constraints 18-633] Creating clock clk with 3 sources. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc:22435]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (239) is greater than number of available pins (200).
+The following are banks with available pins: 
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 33 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   200 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 7ff74216
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:15 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4358 ; free virtual = 25098
+Phase 1 Placer Initialization | Checksum: 7ff74216
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:15 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4358 ; free virtual = 25098
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 7ff74216
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:15 . Memory (MB): peak = 5082.727 ; gain = 0.000 ; free physical = 4358 ; free virtual = 25098
+55 Infos, 85 Warnings, 102 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 12 18:32:24 2025...

@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"thread_test_func_synth.v" \
+"../../../../../fpga_design.srcs/sources_1/new/tb/thread_tb.v" \
+"../../../../../fpga_design.srcs/sim_1/new/thread_test.v" \
+
+# Do not sort compile order
+nosort

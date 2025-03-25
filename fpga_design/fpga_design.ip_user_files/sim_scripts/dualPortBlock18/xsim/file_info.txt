@@ -1,0 +1,2 @@
+dualPortBlock18.v,verilog,xil_defaultlib,../../../../fpga_design.gen/sources_1/ip/dualPortBlock18/sim/dualPortBlock18.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
